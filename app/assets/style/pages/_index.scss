@@ -1,0 +1,11 @@
+.bannerImg {
+  height: calc(100vh - 59px);
+  background: url("../../assets/images/banner.png") center no-repeat;
+  background-size: cover;
+}
+
+@include media-breakpoint-up(md) {
+  .bannerImg {
+    height: calc(100vh - 95px);
+  }
+}
